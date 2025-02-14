@@ -14,7 +14,7 @@ app.use(express.json());
 
 console.log("Loaded Environment Variables:", process.env);
 try {
-  const mongoURI = process.env.mongoURI;
+  const mongoURI = process.env.MONGO_URI;
   if (!mongoURI) {
     console.error("MongoDB URI is missing! Check your environment variables.");
     process.exit(1);
