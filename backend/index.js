@@ -1,5 +1,6 @@
 import express from "express";
-import "dotenv/config";
+import dotenv from "dotenv";
+dotenv.config();
 import mongoose from "mongoose";
 import bookRouter from "./routes/book.route.js";
 import userRouter from "./routes/user.route.js";
@@ -9,6 +10,9 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+
+
+console.log("Loaded Environment Variables:", process.env);
 try {
   const mongoURI = process.env.mongoURI;
   if (!mongoURI) {
