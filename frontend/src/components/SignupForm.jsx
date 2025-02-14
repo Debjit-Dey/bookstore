@@ -1,12 +1,12 @@
 import React,{useEffect, useState} from "react";
 import axios from "axios";
-import Login from "../components/Login";
+import Login from "./Login";
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
 
-function Signup() {
+function SignupForm() {
   const [theme, setTheme] = useState(localStorage.getItem('theme')? localStorage.getItem('theme') : 'light')
   useEffect(()=>{
       const element = document.documentElement
@@ -146,4 +146,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default SignupForm;

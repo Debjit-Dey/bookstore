@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom'
 import './App.css'
-import Home from './home/Home'
-import Courses from './courses/courses'
-import Signup from './components/signup'
+import Home from './home/Home.jsx'
+import Courses from './courses/courses.jsx'
+import Signup from './components/SignupForm.jsx'
 import { Toaster } from 'react-hot-toast';
 import { useAuth } from './context/AuthProvider'
 
