@@ -16,7 +16,7 @@ function Card({ prop }) {
           <div className="card-actions justify-between">
             <div className="badge badge-outline">${prop.price}</div>
             <div className="border-white border-[1px] rounded-full cursor-pointer hover:bg-secondary px-2 py-1 hover:textp-white">
-              Products
+              Buy Now
             </div>
           </div>
         </div>
