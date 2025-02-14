@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import '../App.css'
 import axios from "axios";
 
-function Course() {
+function CourseSection() {
 
   const [list, setList] = useState([]);
   useEffect(()=>{
@@ -40,4 +40,4 @@ function Course() {
   )
 }
 
-export default Course
+export default CourseSection;
