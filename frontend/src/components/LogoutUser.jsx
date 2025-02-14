@@ -2,7 +2,7 @@ import React from "react";
 import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
 
-function Logout() {
+function LogoutUser() {
     const [authUser, setAuthUser] = useAuth();
     const handleLogOut = () => {
         localStorage.removeItem('user');
@@ -21,4 +21,4 @@ function Logout() {
   );
 }
 
-export default Logout;
+export default LogoutUser;
