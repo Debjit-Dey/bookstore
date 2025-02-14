@@ -2,8 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Firstpage from '../components/Firstpage'
 import Freebook from '../components/Freebook'
-import Footer from '../components/footer'
 import '../App.css'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
