@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Story Book",
+      "title": "Enchanting Tales for Young Minds",
+      "price": 0,
+      "category": "free",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Science Fiction",
+      "title": "Galactic Adventures: Beyond the Stars",
+      "price": 299,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/81EIFBObjoL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Self-Help",
+      "title": "The Power of Positive Thinking",
+      "price": 199,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/610kcuW0g1L._SL1400_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "History",
+      "title": "A Brief History of the World",
+      "price": 249,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/81A-mvlo+QL.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Fantasy",
+      "title": "Legends of the Lost Kingdom",
+      "price": 0,
+      "category": "free",
+      "image": "https://m.media-amazon.com/images/I/714qrh7-ToL._SL1360_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Romance",
+      "title": "A Love Beyond Time",
+      "price": 159,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/81i+g2f+eUL._SL1500_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mystery & Thriller",
+      "title": "The Secret Keeper",
+      "price": 349,
+      "category": "paid",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Biography",
+      "title": "The Life of Nikola Tesla",
+      "price": 0,
+      "category": "free",
+      "image": "https://m.media-amazon.com/images/I/71BLgmnfcNL._SL1360_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Philosophy",
+      "title": "The Art of Living",
+      "price": 199,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/61Y9y9nI1aL._SL1400_.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Horror",
+      "title": "The Haunting Shadows",
+      "price": 269,
+      "category": "paid",
+      "image": "https://m.media-amazon.com/images/I/81vpsIs58WL.jpg"
+    }
+  ]
+  

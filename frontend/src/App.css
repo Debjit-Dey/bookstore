@@ -1,0 +1,11 @@
+/* Change the color of the arrows to black */
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+@media only screen and (max-width: 327px){
+
+    .responsiveclass{
+    width: 170%;
+    }
+}
