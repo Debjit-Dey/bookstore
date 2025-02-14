@@ -10,7 +10,7 @@ function Course() {
   const [list, setList] = useState([]);
   useEffect(()=>{
     try {
-      axios.get("http://localhost:3000/book").then((res) => {
+      axios.get("https://bookstore-q3gd.onrender.com/book").then((res) => {
         setList(res.data);
         console.log(res.data);
       });

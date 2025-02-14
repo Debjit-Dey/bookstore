@@ -42,7 +42,7 @@ function Signup() {
 
     try {
       await axios
-        .post("http://localhost:3000/user/signup", userInfo)
+        .post("https://bookstore-q3gd.onrender.com/user/signup", userInfo)
         .then((res) => {
           console.log(res.data);
           if (res.data) {
