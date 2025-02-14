@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Login from "./Login";
 import { useAuth } from "../context/AuthProvider.jsx";
 import Logout from './LogoutUser.jsx';
+import { NavLink } from "react-router-dom";
 
 
 function Navbar() {
@@ -79,16 +80,16 @@ function Navbar() {
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow dark:bg-slate-700 dark:text-white"
               >
                 <li>
-                  <a href="/">Home</a>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <a href="/courses">Course</a>
+                  <NavLink to="/courses">Course</NavLink>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <NavLink to="/about">About</NavLink>
                 </li>
               </ul>
             </div>
@@ -98,16 +99,16 @@ function Navbar() {
             <div className=" navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
               <li>
-                  <a href="/">Home</a>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <a href="/courses">Course</a>
+                  <NavLink to="/courses">Course</NavLink>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <NavLink to="/about">About</NavLink>
                 </li>
               </ul>
             </div>
