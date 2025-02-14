@@ -7,7 +7,7 @@ function Card({ prop }) {
         <figure>
           <img src={prop.image} alt="Shoes" className="h-56 w-full" />
         </figure>
-        <div className="card-body h-52">
+        <div className="card-body h-56">
           <h2 className="card-title">
             {prop.name}
             <div className="badge badge-secondary">{prop.category}</div>
