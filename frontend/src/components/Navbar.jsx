@@ -3,6 +3,7 @@ import Login from "./Login";
 import { useAuth } from "../context/AuthProvider.jsx";
 import Logout from "./logout.jsx";
 
+
 function Navbar() {
   const [sticky, setSticky] =useState(false);
   const [theme, setTheme] = useState(localStorage.getItem('theme')? localStorage.getItem('theme') : 'light')
