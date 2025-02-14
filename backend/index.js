@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 try {
-  const mongoURI = process.env.mongoURI;
+    const mongoURI = process.env.mongoURI;
     mongoose.connect(mongoURI);
     console.log('MongoDB is connected');
 } catch (error) {
